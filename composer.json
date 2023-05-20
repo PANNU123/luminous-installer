@@ -12,7 +12,7 @@
             "email": "sajjad.cse35@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload-dev": {
         "psr-4": {
