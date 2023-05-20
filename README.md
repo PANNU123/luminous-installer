@@ -1,4 +1,4 @@
-# Stavbook Web Installer | A Web Installer
+# Luminous Web Installer | A Web Installer
 
 - [About](#about)
 - [Requirements](#requirements)
@@ -23,14 +23,14 @@ The current features are :
 
 ## Requirements
 
-* [Laravel 8.0+](https://laravel.com/docs/installation)
+* [Laravel 10](https://laravel.com/docs/installation)
 
 ## Installation
 
 1. From your projects root folder in terminal run:
 
 ```bash
-composer require tsakib360/zai-installer
+composer require
 ```
 
 2. Register the package
@@ -39,14 +39,14 @@ Register the package with laravel in `config/app.php` under `providers` with the
 
 ```php
 'providers' => [
-	Tsakib360\ZaiInstaller\Providers\ZaiInstallerServiceProvider::class,
+	Luminous\Installer\Providers\WebInstallerServiceProvider::class,
 ];
 ```
 
 3. Publish the packages views, config file, assets, and language files by running the following from your projects root folder:
 
 ```bash
-php artisan vendor:publish --provider="Tsakib360\ZaiInstaller\Providers\ZaiInstallerServiceProvider"
+php artisan vendor:publish
 ```
 
 ## Routes
