@@ -63,6 +63,6 @@ php artisan vendor:publish
 
 | Folder                               |Folder Information|
 |:-------------------------------------|:------------|
-| `public/stavfiles`                   |This folder contains all the asset files, this file is responsible for the styling of your installer, you can overide the default stylesheet `style.css` and add your own.|
-| `resources/views/stavbook/installer` |This folder contains the HTML code for your installer, it is 100% customizable, give it a look and see how nice/clean it is.|
+| `public/luminous`                   |This folder contains all the asset files, this file is responsible for the styling of your installer, you can overide the default stylesheet `style.css` and add your own.|
+| `resources/views/luminous/installer` |This folder contains the HTML code for your installer, it is 100% customizable, give it a look and see how nice/clean it is.|
 
