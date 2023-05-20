@@ -53,6 +53,14 @@ php artisan vendor:publish
 
 * `/install`
 
+Route::get('/', function () {
+    if (file_exists(storage_path('installed'))) {
+        return view('welcome');
+    }else{
+        return redirect()->route('Luminous::pre.install');
+    }
+});
+
 ## Usage
 
 * **Install Routes Notes**
