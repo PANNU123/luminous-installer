@@ -1,0 +1,19 @@
+{
+    "name": "luminous-labs/web-installer",
+    "description": "Laravel Web Installer For Luminous Lab",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PANNU123",
+            "email": "sajjad.cse35@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Luminous\\Installer\\": "src/"
+        }
+    }
+}
