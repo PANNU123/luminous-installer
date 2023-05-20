@@ -1,6 +1,9 @@
 {
     "name": "luminous-labs/web-installer",
     "description": "Laravel Web Installer For Luminous Lab",
+     "require": {
+        "php": "^8.0"
+    },
     "type": "library",
     "license": "MIT",
     "authors": [
